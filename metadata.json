@@ -1,0 +1,9 @@
+{
+  "name": "사기 패턴을 AI로 분석하는 플랫폼 ",
+  "description": "AI-powered platform for detecting and analyzing fraud patterns in online communities, investments, and crypto projects.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
