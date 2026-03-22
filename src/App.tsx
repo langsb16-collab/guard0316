@@ -12,6 +12,7 @@ import { LegalAI } from './components/LegalAI';
 import { VoiceAnalysis } from './components/VoiceAnalysis';
 import { SMSAnalysis } from './components/SMSAnalysis';
 import { FinancialAnalysis } from './components/FinancialAnalysis';
+import { ChatWidget } from './components/ChatWidget';
 import { FAQBot } from './components/FAQBot';
 import { motion, AnimatePresence } from 'motion/react';
 import { Globe, ChevronDown } from 'lucide-react';
@@ -138,6 +139,7 @@ function App() {
         </main>
       </div>
 
+      <ChatWidget />
       <FAQBot />
     </div>
   );
